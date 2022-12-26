@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25D7AEB02953A4880002A1CB /* BabySortingToyGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D7AEAF2953A4880002A1CB /* BabySortingToyGameApp.swift */; };
+		25D7AEB42953A4880002A1CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25D7AEB32953A4880002A1CB /* Assets.xcassets */; };
+		25D7AEB72953A4880002A1CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25D7AEB62953A4880002A1CB /* Preview Assets.xcassets */; };
+		25D7AEB92953A4880002A1CB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D7AEB82953A4880002A1CB /* Persistence.swift */; };
+		25D7AEBC2953A4880002A1CB /* BabySortingToyGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25D7AEBA2953A4880002A1CB /* BabySortingToyGame.xcdatamodeld */; };
+		25D7AEC42953A4BF0002A1CB /* Toy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D7AEC32953A4BF0002A1CB /* Toy.swift */; };
+		25D7AEC72953A75B0002A1CB /* BabyToyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D7AEC62953A75B0002A1CB /* BabyToyView.swift */; };
+		25D7AEC92953A79E0002A1CB /* DraggableToy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D7AEC82953A79E0002A1CB /* DraggableToy.swift */; };
+		25D7AECB2953B1100002A1CB /* ToyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D7AECA2953B1100002A1CB /* ToyContainer.swift */; };
+		25D7AECE2953B2CA0002A1CB /* ToyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D7AECD2953B2CA0002A1CB /* ToyViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25D7AEAC2953A4880002A1CB /* BabySortingToyGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabySortingToyGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25D7AEAF2953A4880002A1CB /* BabySortingToyGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabySortingToyGameApp.swift; sourceTree = "<group>"; };
+		25D7AEB32953A4880002A1CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25D7AEB62953A4880002A1CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		25D7AEB82953A4880002A1CB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		25D7AEBB2953A4880002A1CB /* BabySortingToyGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BabySortingToyGame.xcdatamodel; sourceTree = "<group>"; };
+		25D7AEC32953A4BF0002A1CB /* Toy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toy.swift; sourceTree = "<group>"; };
+		25D7AEC62953A75B0002A1CB /* BabyToyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyToyView.swift; sourceTree = "<group>"; };
+		25D7AEC82953A79E0002A1CB /* DraggableToy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableToy.swift; sourceTree = "<group>"; };
+		25D7AECA2953B1100002A1CB /* ToyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyContainer.swift; sourceTree = "<group>"; };
+		25D7AECD2953B2CA0002A1CB /* ToyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25D7AEA92953A4880002A1CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25D7AEA32953A4880002A1CB = {
+			isa = PBXGroup;
+			children = (
+				25D7AEAE2953A4880002A1CB /* BabySortingToyGame */,
+				25D7AEAD2953A4880002A1CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25D7AEAD2953A4880002A1CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25D7AEAC2953A4880002A1CB /* BabySortingToyGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25D7AEAE2953A4880002A1CB /* BabySortingToyGame */ = {
+			isa = PBXGroup;
+			children = (
+				25D7AECC2953B2B30002A1CB /* ViewModel */,
+				25D7AEC52953A73D0002A1CB /* Views */,
+				25D7AEC22953A4B10002A1CB /* Model */,
+				25D7AEAF2953A4880002A1CB /* BabySortingToyGameApp.swift */,
+				25D7AEB32953A4880002A1CB /* Assets.xcassets */,
+				25D7AEB82953A4880002A1CB /* Persistence.swift */,
+				25D7AEBA2953A4880002A1CB /* BabySortingToyGame.xcdatamodeld */,
+				25D7AEB52953A4880002A1CB /* Preview Content */,
+			);
+			path = BabySortingToyGame;
+			sourceTree = "<group>";
+		};
+		25D7AEB52953A4880002A1CB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				25D7AEB62953A4880002A1CB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		25D7AEC22953A4B10002A1CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				25D7AEC32953A4BF0002A1CB /* Toy.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		25D7AEC52953A73D0002A1CB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				25D7AEC62953A75B0002A1CB /* BabyToyView.swift */,
+				25D7AEC82953A79E0002A1CB /* DraggableToy.swift */,
+				25D7AECA2953B1100002A1CB /* ToyContainer.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		25D7AECC2953B2B30002A1CB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				25D7AECD2953B2CA0002A1CB /* ToyViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25D7AEAB2953A4880002A1CB /* BabySortingToyGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25D7AEBF2953A4880002A1CB /* Build configuration list for PBXNativeTarget "BabySortingToyGame" */;
+			buildPhases = (
+				25D7AEA82953A4880002A1CB /* Sources */,
+				25D7AEA92953A4880002A1CB /* Frameworks */,
+				25D7AEAA2953A4880002A1CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BabySortingToyGame;
+			productName = BabySortingToyGame;
+			productReference = 25D7AEAC2953A4880002A1CB /* BabySortingToyGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25D7AEA42953A4880002A1CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					25D7AEAB2953A4880002A1CB = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 25D7AEA72953A4880002A1CB /* Build configuration list for PBXProject "BabySortingToyGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25D7AEA32953A4880002A1CB;
+			productRefGroup = 25D7AEAD2953A4880002A1CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25D7AEAB2953A4880002A1CB /* BabySortingToyGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25D7AEAA2953A4880002A1CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D7AEB72953A4880002A1CB /* Preview Assets.xcassets in Resources */,
+				25D7AEB42953A4880002A1CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25D7AEA82953A4880002A1CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D7AEC92953A79E0002A1CB /* DraggableToy.swift in Sources */,
+				25D7AECB2953B1100002A1CB /* ToyContainer.swift in Sources */,
+				25D7AEB92953A4880002A1CB /* Persistence.swift in Sources */,
+				25D7AEBC2953A4880002A1CB /* BabySortingToyGame.xcdatamodeld in Sources */,
+				25D7AEC42953A4BF0002A1CB /* Toy.swift in Sources */,
+				25D7AECE2953B2CA0002A1CB /* ToyViewModel.swift in Sources */,
+				25D7AEB02953A4880002A1CB /* BabySortingToyGameApp.swift in Sources */,
+				25D7AEC72953A75B0002A1CB /* BabyToyView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		25D7AEBD2953A4880002A1CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25D7AEBE2953A4880002A1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25D7AEC02953A4880002A1CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BabySortingToyGame/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shani.Memorize.BabySortingToyGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25D7AEC12953A4880002A1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BabySortingToyGame/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shani.Memorize.BabySortingToyGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25D7AEA72953A4880002A1CB /* Build configuration list for PBXProject "BabySortingToyGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25D7AEBD2953A4880002A1CB /* Debug */,
+				25D7AEBE2953A4880002A1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25D7AEBF2953A4880002A1CB /* Build configuration list for PBXNativeTarget "BabySortingToyGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25D7AEC02953A4880002A1CB /* Debug */,
+				25D7AEC12953A4880002A1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		25D7AEBA2953A4880002A1CB /* BabySortingToyGame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				25D7AEBB2953A4880002A1CB /* BabySortingToyGame.xcdatamodel */,
+			);
+			currentVersion = 25D7AEBB2953A4880002A1CB /* BabySortingToyGame.xcdatamodel */;
+			path = BabySortingToyGame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 25D7AEA42953A4880002A1CB /* Project object */;
+}
